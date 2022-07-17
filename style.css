@@ -25,6 +25,7 @@ body{
     border-radius: 10px;
     position:sticky;
     top: 100%;
+    display:grid;
 }
 table button{
     width: 50px;
@@ -48,4 +49,28 @@ table{
     height: 50px;
    
     
+}
+.fun_but{
+background-color: aqua;
+color: white;
+}
+
+.fun_but:hover{
+    background-color: blue;
+}
+.op_but{
+    background-color: blue;
+    color: white;
+}
+
+.op_but:hover{
+    background-color: aqua;
+}
+tr{
+    display: block;
+}
+
+.zero{
+    width: 110px;
+    border-radius: 30px;
 }
