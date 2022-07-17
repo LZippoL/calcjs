@@ -45,10 +45,17 @@ table{
 }
 
 #display{
-    border: 1px solid black;
-    height: 50px;
-   
     
+    height: 30px;
+    text-align:right;
+    position: relative;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+#display text{
+    position: absolute;
+    top: 20px;
 }
 .fun_but{
 background-color: aqua;
